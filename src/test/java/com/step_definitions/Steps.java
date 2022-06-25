@@ -1,4 +1,4 @@
-package com.edu.step_definitions;
+package com.step_definitions;
 
 import io.cucumber.java.en.Given;
 import io.cucumber.java.en.Then;
