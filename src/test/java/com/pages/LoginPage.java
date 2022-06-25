@@ -1,4 +1,9 @@
 package com.pages;
 
-public class LoginPage {
+import org.openqa.selenium.support.PageFactory;
+
+public class LoginPage extends CommonPageElements{
+    public LoginPage() {
+        PageFactory.initElements(driver,this);
+    }
 }
